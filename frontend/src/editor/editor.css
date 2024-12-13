@@ -1,0 +1,28 @@
+.editor-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f8f8; /* Light grey background */
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%; /* Ensure content doesn't overflow horizontally */
+}
+
+.page-header {
+  margin-bottom: 20px; /* Space between header and A4 page */
+  font-size: 24px;
+  text-align: center;
+}
+
+.a4-page {
+  width: 21cm;
+  height: 29.7cm;
+  background-color: #e0e0e0; /* Light grey background for the A4 page */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 2cm;
+}
